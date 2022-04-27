@@ -8,6 +8,37 @@ class TextBoxPage extends BasePage {
   static get exampleElement () {
     return cy.get('exampleSelector');
   }
+
+  static get fullNameInput () {
+    return cy.get('input#userName');
+  }
+
+  static get userEmailInput() {
+    return cy.get('input#userEmail');
+  }
+  static get currentAddressInput() {
+    return cy.get('textarea#currentAddress');
+  }
+  static get permanentAddressInput() {
+    return cy.get('textarea#permanentAddress');
+  }
+
+  static get submitButton() {
+    return cy.get('#submit');
+  }
+     
+  static get nameParagraph() {
+    return cy.get('p#name');
+  }
+  static get emailParagraph() {
+    return cy.get('p#email');
+  }
+  static get currentAddressParagraph() {
+    return cy.get('p#currentAdress');
+  }
+  static get permanentAddressParagraph() {
+    return cy.get('p#permanentAdress');
+  }
 }
 
 export default TextBoxPage;
