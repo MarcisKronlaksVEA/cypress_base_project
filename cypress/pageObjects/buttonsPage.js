@@ -26,7 +26,7 @@ class ButtonsPage extends Basepage {
     }
 
     static get dynamicClickButton() {
-        return cy.get("button.btn-primary").contains(/^\bClick me\b/);
+        return cy.get("button.btn-primary").contains(/^\bClick Me\b/);
     }
 
     static get dynamicClickSuccessMsg() {

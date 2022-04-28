@@ -34,10 +34,10 @@ class TextBoxPage extends BasePage {
     return cy.get('p#email');
   }
   static get currentAddressParagraph() {
-    return cy.get('p#currentAdress');
+    return cy.get('p#currentAddress');
   }
   static get permanentAddressParagraph() {
-    return cy.get('p#permanentAdress');
+    return cy.get('p#permanentAddress');
   }
 }
 

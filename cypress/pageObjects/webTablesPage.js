@@ -34,7 +34,7 @@ class WebTablesPage extends Basepage {
     static get submitButton() {
         return cy.get('button#submit');
     }
-    static get allTables() {
+    static get allTable() {
         return cy.get('div.rt-td');
     }
 
